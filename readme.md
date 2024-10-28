@@ -9,7 +9,7 @@
 
 `node src/index.js` to run the project
 
-This project does not use a database, it keeps data in memory and stores/loads it from disk.
+This project does not use a database, it keeps data in memory and stores/loads it from disk.\
 When you send SIGINT or SIGTERM it saves data to disk.
 
 ## Project structure
