@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "start": "echo use \"node src/index.js\" instead"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "5.0.1",
     "mongoose": "^8.7.2"
   },

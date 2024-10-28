@@ -1,8 +1,15 @@
 # Retro game house hall of fame site
 > [!NOTE]
-> This is a school project, not a real thing.\
+> This is a school assingment, not a real thing.\
 > Keeping this public so people can see what I'm doing.\
 > No contributions will be taken.
+
+## About
+This is a school assingment to create a hall of fame and admin panel for https://retrogamehouse.fi\
+I don't want to use any libraries or frameworks on the frontend. I want to keep it html + css + javascript, no react or other helping stuff.
+I like doing things the hard way.
+
+
 
 ## Run
 `npm i` to install packages
