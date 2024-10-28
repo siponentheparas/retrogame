@@ -1,6 +1,8 @@
 # Retro game house hall of fame site
 > [!NOTE]
-> This is a school project, not a real thing
+> This is a school project, not a real thing.\
+> Keeping this public so people can see what I'm doing.\
+> No contributions will be taken.
 
 ## Run
 `npm i` to install packages
