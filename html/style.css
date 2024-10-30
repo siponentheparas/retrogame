@@ -10,3 +10,41 @@ header {
     background-color: blue;
     height: 2rem;
 }
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+#info-grid {
+    width: 80%;
+    /**
+   * User input values.
+   */
+    --grid-layout-gap: 25px;
+    --grid-column-count: 4;
+    --grid-item--min-width: 25rem;
+
+    /**
+   * Calculated values.
+   */
+    --gap-count: calc(var(--grid-column-count) - 1);
+    --total-gap-width: calc(var(--gap-count) * var(--grid-layout-gap));
+    --grid-item--max-width: calc(
+        (100% - var(--total-gap-width)) / var(--grid-column-count)
+    );
+
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(
+            max(var(--grid-item--min-width), var(--grid-item--max-width)),
+            1fr
+        )
+    );
+    grid-gap: var(--grid-layout-gap);
+}

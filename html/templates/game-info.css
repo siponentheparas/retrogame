@@ -1,3 +1,29 @@
-h3 {
-    color: aqua;
+.info-card {
+    width: 25rem;
+    height: 30rem;
+
+    background-color: blue;
+
+    margin: 1rem;
+
+    border: 2px solid rgb(65, 65, 65);
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    text-align: center;
+}
+
+.name {
+    background-color: black;
+    width: 100%;
+
+    color: white;
+}
+
+.description {
+    width: 90%;
 }
